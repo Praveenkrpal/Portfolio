@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Praveen Kumar | Full Stack Developer</title>
+
+  <meta name="description"
+    content="Praveen Kumar - Full Stack Developer specializing in React, Node.js, SQL and modern web applications." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/portfolio-icon.png" />
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span>&lt;</span>PRAVEEN KUMAR<span>/&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="nav-contact">Let's Talk</a>
+        <button class="menu-btn" id="menuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero-section" id="home">
+      <div class="hero-container">
+
+        <div class="hero-content">
+          <div class="availability">
+            <span class="status-dot"></span>
+            Available for opportunities
+          </div>
+
+          <p class="hero-small">
+            <i class="fas fa-code"></i>
+            FULL STACK DEVELOPER
+          </p>
+
+          <h1>Building <span>modern</span> web experiences.</h1>
+
+          <p class="hero-description">
+            I'm Praveen Kumar, a Full Stack Developer focused on building
+            scalable, responsive and user-friendly web applications using
+            React, Node.js, SQL and modern technologies.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+              <i class="fas fa-arrow-right"></i>
+            </a>
+
+            <button class="btn btn-outline" id="heroResumeBtn">
+              <i class="fas fa-file-arrow-down"></i>
+              Download Resume
+            </button>
+          </div>
+
+          <div class="hero-socials">
+            <a href="#" data-social="github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" data-social="linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" data-social="email" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Flip Card -->
+        <div class="hero-flip-wrapper" id="heroFlipWrapper">
+
+          <div class="hero-flip-card">
+
+            <!-- FRONT: PHOTO -->
+            <div class="hero-flip-front">
+              <div class="hero-photo-face">
+
+                <div class="hero-orbit">
+                  <span class="hero-orbit-dot"></span>
+                  <span class="hero-orbit-dot"></span>
+                  <span class="hero-orbit-dot"></span>
+                  <span class="hero-orbit-dot"></span>
+                </div>
+
+                <div class="hero-photo-inner">
+                  <img src="assets/profesional-profile.png" alt="Praveen Kumar" />
+                </div>
+
+                <div class="hero-tech-badge hero-tech-react">
+                  <i class="fab fa-react"></i> React
+                </div>
+
+                <div class="hero-tech-badge hero-tech-node">
+                  <i class="fab fa-node-js"></i> Node.js
+                </div>
+
+                <div class="hero-tech-badge hero-tech-mysql">
+                  <i class="fas fa-database"></i> MySQL
+                </div>
+
+                <div class="hero-tech-badge hero-tech-mongo">
+                  <i class="fas fa-leaf"></i> MongoDB
+                </div>
+
+                <div class="hero-exp-badge">
+                  <i class="fas fa-briefcase"></i>
+                  1.5+ Years Experience
+                </div>
+
+                <div class="hero-available-badge">
+                  <span class="status-dot"></span>
+                  AVAILABLE
+                </div>
+
+                <div class="hero-click-hint">
+                  <i class="fas fa-hand-pointer"></i>
+                  CLICK ME
+                </div>
+
+              </div>
+            </div>
+
+            <!-- BACK: CODE EDITOR -->
+            <div class="hero-flip-back">
+              <div class="hero-code-card">
+
+                <div class="code-window-header">
+                  <div class="code-window-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="code-window-title">developer.js</div>
+                </div>
+
+                <div class="code-window-body">
+                  <div class="code-line">
+                    <span class="code-keyword">const</span>&nbsp;<span class="code-variable">developer</span>&nbsp;<span
+                      class="code-operator">=</span>&nbsp;<span class="code-brace">{</span>
+                  </div>
+
+                  <div class="code-line code-indent">
+                    <span class="code-property">name</span><span class="code-comma">:</span>&nbsp;<span
+                      class="code-string">"Praveen Kumar"</span><span class="code-comma">,</span>
+                  </div>
+
+                  <div class="code-line code-indent">
+                    <span class="code-property">role</span><span class="code-comma">:</span>&nbsp;<span
+                      class="code-string">"Full Stack Developer"</span><span class="code-comma">,</span>
+                  </div>
+
+                  <div class="code-line code-indent">
+                    <span class="code-property">experience</span><span class="code-comma">:</span>&nbsp;<span
+                      class="code-string">"1.5+ years"</span><span class="code-comma">,</span>
+                  </div>
+
+                  <div class="code-line code-indent">
+                    <span class="code-property">location</span><span class="code-comma">:</span>&nbsp;<span
+                      class="code-string">"New Delhi, India"</span><span class="code-comma">,</span>
+                  </div>
+
+                  <div class="code-line code-indent">
+                    <span class="code-property">frontend</span><span class="code-comma">:</span>&nbsp;<span
+                      class="code-string">"React"</span><span class="code-comma">,</span>
+                  </div>
+
+                  <div class="code-line code-indent">
+                    <span class="code-property">backend</span><span class="code-comma">:</span>&nbsp;<span
+                      class="code-string">"Node.js"</span><span class="code-comma">,</span>
+                  </div>
+
+                  <div class="code-line code-indent">
+                    <span class="code-property">database</span><span class="code-comma">:</span>&nbsp;<span
+                      class="code-string">"MySQL"</span><span class="code-comma">,</span>
+                  </div>
+
+                  <div class="code-line code-indent">
+                    <span class="code-property">available</span><span class="code-comma">:</span>&nbsp;<span
+                      class="code-boolean">true</span>
+                  </div>
+
+                  <div class="code-line">
+                    <span class="code-brace">}</span><span class="code-semicolon">;</span><span
+                      class="code-cursor"></span>
+                  </div>
+                </div>
+
+                <div class="code-window-status">
+                  <div class="code-window-status-left">
+                    <span><i class="fas fa-code-branch"></i> main</span>
+                    <span><i class="fas fa-check-circle"></i> 0 problems</span>
+                    <span><i class="fas fa-code"></i> JavaScript</span>
+                  </div>
+                  <div class="code-window-status-right">
+                    <span class="hint">
+                      <i class="fas fa-undo"></i> CLICK TO FLIP
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="section-container">
+        <div class="about-heading">
+          <span class="about-number">01</span>
+          <div>
+            <p class="section-label">ABOUT ME</p>
+            <h2>Turning ideas into <span>digital products.</span></h2>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm a Full Stack Developer with hands-on experience building business applications and modern web
+              products.</p>
+            <p>Currently working at <strong>DNS Group</strong>, where I develop and optimize ERP applications with
+              multiple business modules, reusable components and role-based access control.</p>
+            <p>I enjoy solving complex problems, improving application performance and creating clean, maintainable user
+              interfaces.</p>
+
+            <div class="about-stats">
+              <div class="stat"><strong>1.5+</strong><span>Years Experience</span></div>
+              <div class="stat"><strong>15+</strong><span>ERP Modules</span></div>
+              <div class="stat"><strong>100+</strong><span>Users Supported</span></div>
+            </div>
+
+            <div class="about-skills-list">
+              <h4>What I Do</h4>
+              <ul>
+                <li><i class="fas fa-check"></i> Full Stack Web Development</li>
+                <li><i class="fas fa-check"></i> React Application Development</li>
+                <li><i class="fas fa-check"></i> REST API Development</li>
+                <li><i class="fas fa-check"></i> SQL Database Optimization</li>
+                <li><i class="fas fa-check"></i> ERP Application Development</li>
+                <li><i class="fas fa-check"></i> Responsive UI Development</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="about-profile-card">
+            <div class="about-profile-image">
+              <img src="assets/profesional-card-profile.png" alt="Praveen Kumar" />
+              <span class="about-profile-status"></span>
+            </div>
+
+            <h3>Praveen Kumar</h3>
+            <p class="about-profile-role">Full Stack Developer</p>
+
+            <ul class="about-profile-info">
+              <li><i class="fas fa-map-marker-alt"></i><span>New Delhi, India</span></li>
+              <li><i class="fas fa-briefcase"></i><span>DNS Group</span></li>
+              <li><i class="fas fa-graduation-cap"></i><span>GGSIPU</span></li>
+              <li><i class="fas fa-code"></i><span>1.5+ Years Experience</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="section-container">
+        <div class="skills-heading">
+          <span class="skills-number">02</span>
+          <div>
+            <p class="section-label">TECHNOLOGIES</p>
+            <h2>My <span>Tech Stack</span></h2>
+            <p class="heading-description">Technologies and tools I use to build modern applications.</p>
+          </div>
+          <button class="manage-section-btn" id="openSkillManager">
+            <i class="fas fa-sliders"></i> Manage Skills
+          </button>
+        </div>
+        <div class="skills-grid" id="skillsContainer"></div>
+      </div>
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section class="section experience-section" id="experience">
+      <div class="section-container">
+        <div class="experience-heading">
+          <span class="experience-number">03</span>
+          <div>
+            <p class="section-label">MY JOURNEY</p>
+            <h2>Work <span>Experience</span></h2>
+          </div>
+          <button class="manage-section-btn" id="openExperienceManager">
+            <i class="fas fa-sliders"></i> Manage Experience
+          </button>
+        </div>
+        <div class="timeline" id="experienceContainer"></div>
+      </div>
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section class="section projects-section" id="projects">
+      <div class="section-container">
+        <div class="projects-heading">
+          <span class="projects-number">04</span>
+          <div>
+            <p class="section-label">SELECTED WORK</p>
+            <h2>Featured <span>Projects</span></h2>
+          </div>
+          <button class="manage-section-btn" id="openProjectManager">
+            <i class="fas fa-plus"></i> Manage Projects
+          </button>
+        </div>
+        <div class="projects-grid" id="projectsContainer"></div>
+      </div>
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section class="section education-section" id="education">
+      <div class="section-container">
+        <div class="education-heading">
+          <span class="education-number">05</span>
+          <div>
+            <p class="section-label">BACKGROUND</p>
+            <h2>Education &amp; <span>Certification</span></h2>
+          </div>
+        </div>
+
+        <div class="education-grid">
+          <div class="education-card">
+            <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div>
+              <span class="education-year">B.Tech</span>
+              <h3>Computer Science &amp; Engineering</h3>
+              <p>Guru Gobind Singh Indraprastha University (GGSIPU)</p>
+              <small>Delhi, India</small>
+            </div>
+          </div>
+
+          <div class="education-card">
+            <div class="education-icon"><i class="fas fa-school"></i></div>
+            <div>
+              <span class="education-year">Diploma</span>
+              <h3>Instrumentation &amp; Control</h3>
+              <p>Ambedkar DSEU Shakarpur Campus 1</p>
+              <small>Delhi, India</small>
+            </div>
+          </div>
+
+          <div class="education-card">
+            <div class="education-icon"><i class="fas fa-certificate"></i></div>
+            <div>
+              <span class="education-year">Certification</span>
+              <h3>MERN Stack Certified</h3>
+              <p>Full Stack Web Development</p>
+              <p>Ducat India Ai, Pitampura</p>
+              <small>React · Node · Express · MongoDB</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="section-container">
+        <div class="contact-box">
+          <div class="contact-content">
+            <p class="section-label">06 · CONTACT</p>
+            <h2>Let's build something <span>great together.</span></h2>
+            <p>I'm open to discussing new opportunities, interesting projects and collaborations.</p>
+
+            <a href="#" id="contactEmailBtn" class="btn btn-primary" data-contact="email">
+              Get In Touch
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="contact-details">
+            <a href="#" data-contact="email">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <small>Email</small>
+                <span id="emailDisplay">Loading...</span>
+              </div>
+            </a>
+
+            <a href="#" data-contact="phone">
+              <i class="fas fa-phone"></i>
+              <div>
+                <small>Phone</small>
+                <span id="phoneDisplay">Loading...</span>
+              </div>
+            </a>
+
+            <div>
+              <i class="fas fa-location-dot"></i>
+              <div>
+                <small>Location</small>
+                <span>New Delhi, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <span>&lt;</span>Praveen Kumar<span>/&gt;</span>
+      </div>
+
+      <p>Designed &amp; developed by Praveen Kumar</p>
+
+      <div class="footer-socials">
+        <a href="#" data-social="github" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#" data-social="linkedin" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" data-social="email" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+
+      <span class="copyright">
+        © <span id="currentYear">2025</span> Praveen Kumar
+      </span>
+    </div>
+  </footer>
+
+
+  <!-- PROJECT MODAL -->
+  <div class="modal" id="projectModal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <span class="modal-label">PROJECT</span>
+          <h3 id="projectModalTitle">Add Project</h3>
+        </div>
+        <button class="modal-close" id="closeProjectModal" type="button">
+          <i class="fas fa-xmark"></i>
+        </button>
+      </div>
+
+      <form id="projectForm">
+        <input type="hidden" id="projectId" />
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="projectTitle">Project Title *</label>
+            <input type="text" id="projectTitle" placeholder="e.g. NoteVault" required />
+          </div>
+          <div class="form-group">
+            <label for="projectTech">Technologies</label>
+            <input type="text" id="projectTech" placeholder="React, Node.js, MySQL" />
+            <small class="form-help">Separate technologies with commas.</small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="projectDescription">Description *</label>
+          <textarea id="projectDescription" rows="5" placeholder="Describe your project..." required></textarea>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="projectGithub">GitHub URL</label>
+            <input type="url" id="projectGithub" placeholder="https://github.com/..." />
+          </div>
+          <div class="form-group">
+            <label for="projectLive">Live Project URL</label>
+            <input type="url" id="projectLive" placeholder="https://..." />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Project Image</label>
+          <label class="image-upload-box" for="projectImageInput" id="projectImagePreview">
+            <i class="fas fa-image"></i>
+            <span>Click to upload project image</span>
+            <small>PNG, JPG or WEBP · Max 2MB</small>
+          </label>
+          <input type="file" id="projectImageInput" accept="image/*" hidden />
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-secondary" id="cancelProject">Cancel</button>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-check"></i> Save Project
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- SKILL MODAL -->
+  <div class="modal" id="skillModal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <span class="modal-label">TECH STACK</span>
+          <h3 id="skillModalTitle">Add Skill</h3>
+        </div>
+        <button class="modal-close" id="closeSkillModal" type="button">
+          <i class="fas fa-xmark"></i>
+        </button>
+      </div>
+
+      <form id="skillForm">
+        <input type="hidden" id="skillId" />
+
+        <div class="form-group">
+          <label for="skillCategory">Category</label>
+          <select id="skillCategory">
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="Database">Database</option>
+            <option value="Tools & Deployment">Tools &amp; Deployment</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="skillName">Skill Name *</label>
+          <input type="text" id="skillName" placeholder="e.g. TypeScript" required />
+        </div>
+
+        <div class="form-group">
+          <label for="skillIcon">Font Awesome Icon</label>
+          <input type="text" id="skillIcon" placeholder="fa-brands fa-react" />
+          <small class="form-help">Example: <code>fa-brands fa-react</code></small>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-secondary" id="cancelSkill">Cancel</button>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-check"></i> Save Skill
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- EXPERIENCE MODAL -->
+  <div class="modal" id="experienceModal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <span class="modal-label">EXPERIENCE</span>
+          <h3 id="experienceModalTitle">Add Experience</h3>
+        </div>
+        <button class="modal-close" id="closeExperienceModal" type="button">
+          <i class="fas fa-xmark"></i>
+        </button>
+      </div>
+
+      <form id="experienceForm">
+        <input type="hidden" id="experienceId" />
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="experienceRole">Job Role *</label>
+            <input type="text" id="experienceRole" placeholder="Full Stack Developer" required />
+          </div>
+          <div class="form-group">
+            <label for="experienceCompany">Company *</label>
+            <input type="text" id="experienceCompany" placeholder="DNS Group" required />
+          </div>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="experienceLocation">Location</label>
+            <input type="text" id="experienceLocation" placeholder="New Delhi" />
+          </div>
+          <div class="form-group">
+            <label for="experienceStart">Start Date</label>
+            <input type="text" id="experienceStart" placeholder="March 2025" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="experienceEnd">End Date</label>
+          <input type="text" id="experienceEnd" placeholder="Present" />
+        </div>
+
+        <div class="form-group">
+          <label for="experienceSummary">Summary</label>
+          <textarea id="experienceSummary" rows="4" placeholder="Short description of your role..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="experiencePoints">Responsibilities</label>
+          <textarea id="experiencePoints" rows="7" placeholder="One responsibility per line..."></textarea>
+          <small class="form-help">Write each responsibility on a new line.</small>
+        </div>
+
+        <div class="form-group">
+          <label for="experienceTech">Technologies</label>
+          <input type="text" id="experienceTech" placeholder="React, Node.js, MySQL, Sequelize" />
+          <small class="form-help">Separate technologies with commas.</small>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-secondary" id="cancelExperience">Cancel</button>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-check"></i> Save Experience
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- PORTFOLIO MANAGER -->
+  <div class="modal" id="portfolioManagerModal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content manager-modal">
+      <div class="modal-header">
+        <div>
+          <span class="modal-label">PORTFOLIO</span>
+          <h3>Portfolio Manager</h3>
+        </div>
+        <button class="modal-close" id="closePortfolioManager" type="button">
+          <i class="fas fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="manager-options">
+        <button class="manager-option" id="managerSkillsBtn">
+          <span class="manager-option-icon"><i class="fas fa-layer-group"></i></span>
+          <span>
+            <strong>Tech Stack</strong>
+            <small>Add, edit or remove technologies</small>
+          </span>
+          <i class="fas fa-arrow-right"></i>
+        </button>
+
+        <button class="manager-option" id="managerExperienceBtn">
+          <span class="manager-option-icon"><i class="fas fa-briefcase"></i></span>
+          <span>
+            <strong>Experience</strong>
+            <small>Manage your work experience</small>
+          </span>
+          <i class="fas fa-arrow-right"></i>
+        </button>
+
+        <button class="manager-option" id="managerProjectsBtn">
+          <span class="manager-option-icon"><i class="fas fa-folder-open"></i></span>
+          <span>
+            <strong>Projects</strong>
+            <small>Add and manage portfolio projects</small>
+          </span>
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- RESUME MODAL -->
+  <div class="resume-modal" id="resumeModal">
+    <div class="resume-modal-content">
+      <button class="modal-close" id="closeResumeModal">
+        <i class="fas fa-xmark"></i>
+      </button>
+
+      <div class="modal-icon"><i class="fas fa-file-pdf"></i></div>
+
+      <h2>My Resume</h2>
+      <p>Download my resume or upload a new one.</p>
+
+      <div class="resume-current">
+        <div>
+          <i class="fas fa-file"></i>
+          <div>
+            <strong id="resumeFileName">Praveen-Kumar-Resume.pdf</strong>
+            <small id="resumeStatus">Default resume</small>
+          </div>
+        </div>
+        <button id="downloadResumeModal" class="small-download">
+          <i class="fas fa-download"></i>
+          <span>Download</span>
+        </button>
+      </div>
+
+      <div class="upload-area" id="uploadArea">
+        <i class="fas fa-cloud-arrow-up"></i>
+        <h3>Upload Resume</h3>
+        <p>PDF only · Maximum 5MB</p>
+        <label for="resumeInput" class="upload-button">Choose PDF</label>
+        <input type="file" id="resumeInput" accept="application/pdf,.pdf" hidden />
+      </div>
+
+      <div class="upload-progress" id="uploadProgress">
+        <div class="progress-bar"><span></span></div>
+        <small>Processing resume...</small>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="toast" id="toast">
+    <i class="fas fa-check-circle"></i>
+    <span id="toastMessage">Success</span>
+  </div>
+
+
+  <button class="back-top" id="backTop">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
